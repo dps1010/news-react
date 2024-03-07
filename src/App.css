@@ -6,6 +6,37 @@
   height: 40vmin;
   pointer-events: none;
 }
+.navbar{
+  background-color: purple;
+  width:100vw;
+  position: fixed;
+  z-index: 1;
+}
+h1{
+  padding-top: 100px;
+}
+li:hover{
+  transform: scale(1,1.1);
+  font-weight: bolder;
+}
+li:active{
+  color:white;
+  text-decoration :underline;
+}
+.btn{
+  background-color:  white;
+  color:black;
+  border: 1px solid black;
+}
+.card:hover{
+  transform: scale(1,1.03);
+  box-shadow: 0 10px 25px  rgb(25, 16, 16) ;
+}
+.btn:hover{
+  background-color: purple;
+  color:white;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
